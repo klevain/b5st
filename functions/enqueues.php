@@ -8,8 +8,8 @@ if ( ! function_exists('b5st_enqueues') ) {
 
 		// Styles
 
-		wp_register_style('bootstrap5', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css', false, '5.0.0', null);
-		wp_enqueue_style('bootstrap5');
+		// wp_register_style('bootstrap5', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css', false, '5.0.0', null);
+		// wp_enqueue_style('bootstrap5');
 
 		wp_register_style('bootstrapIcons', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css', false, '1.4.1', null);
 		wp_enqueue_style('bootstrapIcons');

@@ -68,6 +68,11 @@ if ( ! function_exists('b5st_setup') ) {
 		) );
 
 		add_theme_support('automatic-feed-links');
+		
+		// Add tag metabox to page
+		register_taxonomy_for_object_type('post_tag', 'page'); 
+		// Add category metabox to page
+		register_taxonomy_for_object_type('category', 'page');  
 	}
 }
 add_action('init', 'b5st_setup');

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'aventa';
+    src: url('../font/aventa/light.woff2') format('woff2'),
+         url('../font/aventa/light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aventa';
+    src: url('../font/aventa/regular.woff2') format('woff2'),
+         url('../font/aventa/regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aventa';
+    src: url('../font/aventa/bold.woff2') format('woff2'),
+         url('../font/aventa/bold.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'aventa';
+    src: url('../font/aventa/extrabold.woff2') format('woff2'),
+         url('../font/aventa/extrabold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aventa';
+    src: url('../font/aventa/light-italic.woff2') format('woff2'),
+         url('../font/aventa/light-italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'aventa';
+    src: url('../font/aventa/regular-italic.woff2') format('woff2'),
+         url('../font/aventa/regular-italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'aventa';
+    src: url('../font/aventa/bold-italic.woff2') format('woff2'),
+         url('../font/aventa/bold-italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'aventa';
+    src: url('../font/aventa/extrabold-italic.woff2') format('woff2'),
+         url('../font/aventa/extrabold-italic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
